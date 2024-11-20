@@ -47,7 +47,7 @@ const Routes = () => {
     },
   ];
 
-  // Define routes accessible only to non-authenticated users
+ 
   const routesForNotAuthenticatedOnly = [
     {
       path: "/register",
@@ -59,14 +59,14 @@ const Routes = () => {
     },
   ];
 
-  // Combine and conditionally include routes based on authentication status
+  
   const router = createBrowserRouter([
     ...routesForPublic,
     ...(!token ? routesForNotAuthenticatedOnly : []),
     ...routesForAuthenticatedOnly,
   ]);
 
-  // Provide the router configuration using RouterProvider
+ 
   return <RouterProvider router={router} />;
 };
 
