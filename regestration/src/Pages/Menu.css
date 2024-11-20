@@ -1,0 +1,65 @@
+.menu--container{
+    width: 500px;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-250px;
+    margin-top:-305px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 7px;
+}
+.menu--header{
+    position: absolute;
+    top: 6px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+  
+    color: #1f41bb;
+}
+.menu--form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 376px;
+    height: 233px;
+    /* left: 74px; */
+    top: 150px;
+}
+.logout--btn{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3px;
+    align-items: right;
+    /* gap: 10px; */
+    right: 10px;
+    position: absolute;
+    top: 5px;
+    margin-top: 10px;
+}
+.menu--btn{
+    padding: 15px 20px;
+    gap: 10px;
+    width: 400px;
+    height: 50px;
+    color: white;
+    background: #1f41bb;
+    background: #1f41bb;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Poppins";
+
+}

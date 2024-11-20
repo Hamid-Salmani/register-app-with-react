@@ -1,0 +1,130 @@
+.container {
+  width: 500px;
+  height: 610px;
+  display: flex;
+  justify-content: center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-250px;
+  margin-top:-305px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 7px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.Header {
+  position: absolute;
+  top: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #1f41bb;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 30px;
+  position: absolute;
+  width: 376px;
+  height: 233px;
+  /* left: 74px; */
+  top: 150px;
+}
+.form--reg{
+    top : 70px;
+    gap: 30px;
+}
+input {
+  /* input */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px 35px 20px 20px;
+  gap: 10px;
+  border: none;
+  width: 357px;
+  height: 64px;
+  background: #f1f4ff;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #5275f4;
+}
+
+/* ثبت نام */
+
+.button {
+  width: 60px;
+  height: 27px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #1f41bb;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+button {
+  padding: 15px 20px;
+  gap: 10px;
+  width: 174px;
+  height: 50px;
+  color: white;
+  background: #1f41bb;
+  background: #1f41bb;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 274px;
+  margin-top: 40px;
+}
+.button {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  margin-left: 300px;
+}
+.button a {
+    font-family: "Poppins";
+    font-style: normal;
+    color: #1f41bb;
+    text-decoration: none;
+}
